@@ -1,19 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-<form action="" onsubmit={event.preventDefault()} method="post">
-    <input type="text" name="username"><br>
-    <input type="text" name="password"><br>
-    <input type="text" name="age">
-    <input type="submit" name="" id="">
-</form>
-<script src="./main.js"></script>
-</body>
+    <script src="./main.js"></script>
+
+  </head>
+  <body>
+    <h2>Converting Arrays to Strings</h2>
+    <p>
+      The JavaScript method toString() converts an array to a string of (comma
+      separated) array values.
+    </p>
+
+    <h2>Join</h2>
+    <p>
+      The join() method also joins all array elements into a string. It behaves
+      just like toString(), but in addition you can specify the separator:
+    </p>
+
+    <h2>Popping and Pushing</h2>
+    <h3>Array pop()</h3>
+    <p>The pop() method removes the last element from an array:</p>
+    <h4>Example</h4>
+    <p>const fruits = ["Banana", "Orange", "Apple", "Mango"];<br>
+        fruits.pop();</p>
+    <h4>Output:</h4>
+    <p>Returns last element of the array</p>
+    <button onclick="pop()">Pop</button>
+
+    <h3>Array push()</h3>
+    <p>The push() method adds a new element to an array (at the end):</p>
+
+    <h4>Example</h4>
+    <p>const fruits = ["Banana", "Orange", "Apple", "Mango"];<br>
+        fruits.push("Kiwi");</p>
+    <h4>Output</h4>
+    <p>returns the new array length </p>
+    <button onclick="push()">Push</button>
+
+
+
+
+  </body>
 </html>
